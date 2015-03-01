@@ -15,6 +15,12 @@ Require in your Gemfile:
 gem 'newrelic-ping-rails'
 ```
 
+
+### Usage
+
+After hanging in the gem, the route "/newrelic-ping" is available and returns "online" with status code 200.
+
+
 ## License
 
 MIT License.
