@@ -1,0 +1,20 @@
+*.rbc
+capybara-*.html
+.rspec
+/log
+/tmp
+/coverage/
+/spec/tmp
+
+Gemfile.lock
+/.bundle
+/vendor/bundle
+
+.ruby-version
+.ruby-gemset
+.rvmrc
+
+# if using bower-rails ignore default bower_components path bower.json files
+/vendor/assets/bower_components
+*.bowerrc
+bower.json
