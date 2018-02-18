@@ -1,6 +1,3 @@
-# rails
-require 'rails/all'
-
 # engine
 require 'newrelic_ping_rails/engine'
 
@@ -11,5 +8,4 @@ module NewrelicPingRails
   # in the initialization process and should be set to a string.
   mattr_accessor :parent_controller
   @@parent_controller = "ActionController::Base"
-
 end
