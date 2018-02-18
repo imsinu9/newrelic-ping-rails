@@ -13,7 +13,6 @@ Gem::Specification.new do |s|
   s.summary     = "Provides a route to hang in for newrelic ping."
   s.description = "Provides a route to hang in for newrelic ping."
   s.license     = "MIT"
-
   s.files = Dir[
     "{app,config,db,lib}/**/*",
     ".gitignore",
@@ -22,7 +21,5 @@ Gem::Specification.new do |s|
     "README.md"
   ]
   s.require_path = 'lib'
-
-  s.add_development_dependency 'rails', '>= 4.1.5', '< 5.0.0'
-
+  s.add_development_dependency 'rails', '>= 4.2'
 end
